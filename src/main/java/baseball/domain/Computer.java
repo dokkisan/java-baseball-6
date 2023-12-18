@@ -15,4 +15,8 @@ public class Computer implements Player {
 	public List<Integer> sendToReferee() {
 		return numbers;
 	}
+
+	public List<Integer> getNumbers() {
+		return numbers;
+	}
 }
